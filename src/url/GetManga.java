@@ -12,7 +12,7 @@ import java.util.Iterator;
 /**
  * Example program to list links from a URL.
  */
-public class ListLinks {
+public class GetManga {
     public static void main(String[] args) throws IOException,HttpStatusException {
         int numChap = 1;
         int numPage = 1;

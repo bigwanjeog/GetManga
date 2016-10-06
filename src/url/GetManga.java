@@ -9,14 +9,11 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Iterator;
 
-/**
- * Example program to list links from a URL.
- */
 public class GetManga {
-    public static void main(String[] args) throws IOException,HttpStatusException {
+    public static void main(String[] args) throws IOException {
         int numChap = 1;
         int numPage = 1;
-        String nomManga = "boku-no-hero-academia-smash";
+        String nomManga = "naruto";
         getImage(numChap, numPage, nomManga, getNombreScan(nomManga));
     }
 
